@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import './App.css';
 import HeaderNav from "./components/HeaderNav.jsx";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Slider from "./components/Slider.jsx";
+import Slider from "./components/Slider.js";
 import Sweets from "./components/Sweets";
 import Anime from "./components/Anime";
 import Different from "./components/Different";
@@ -18,7 +18,7 @@ function App() {
 
 
 
-    <div className="App">
+    <div className="wrapper">
 
       <HeaderNav />
       <Slider />

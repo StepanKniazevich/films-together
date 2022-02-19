@@ -49,7 +49,7 @@ export default function Cartons() {
 
 
 
-    return <div className="Cartons">{
+    return <div className="Cartons wrapper">{
         Cartons.map(carton => <ShowCartons carton={carton} />)
     }</div>
         ;

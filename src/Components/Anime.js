@@ -10,7 +10,7 @@ const ShowAnime = function (props) {
                 {props.animeFilms.map((item) => {
                     return (
 
-                        < Card className="card-item __different" >
+                        < Card className="card-item __anime" >
                             <Card.Img variant="top" src={item.imgUrl} width="100px" height="150px" />
                             <Card.Body className="body-anime">
                                 <Card.Title>{item.name}</Card.Title>
@@ -18,7 +18,7 @@ const ShowAnime = function (props) {
                             </Card.Body>
 
                             <Card.Footer>
-                                <span className="mark-cartons">Оцінка {item.mark} </span>
+                                <span className="mark-anime">Оцінка {item.mark} </span>
                             </Card.Footer>
                         </Card>
                     )
@@ -92,7 +92,7 @@ export default function Anime() {
             {
                 name: "За хмарами", imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvUn08V1-ltZubKYtdUoyH1NTt67OXRcurAkWvmyqQ2RyH1duImZaO9vWM8SnYW47RsL0&usqp=CAU",
                 url: "https://vmeste.tv/room/115900/za-oblakami-2004/becaf40d89504f278e6f4f23e88a7eaf", mark: 8.4
-            }, {}, {}
+            }
 
 
         ]
@@ -101,7 +101,7 @@ export default function Anime() {
     return (
 
 
-        <div className="anime">
+        <div className="anime wrapper">
 
             {animeFilms.map(item => <ShowAnime animeFilms={item} />)}
 

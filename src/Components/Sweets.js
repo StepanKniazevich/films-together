@@ -56,7 +56,7 @@ export default function Sweets() {
 
     return (
 
-        <div className="sweets">
+        <div className="sweets wrapper">
             {serials.map(sweet => <ShowFilms sweets={sweet} />)}</div>
 
     )

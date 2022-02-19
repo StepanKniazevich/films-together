@@ -72,7 +72,7 @@ export default function Different() {
 
 
     return (
-        <div className="different">{
+        <div className="different wrapper" >{
             different.map(difFilms => { return (<ShowFilms difFilms={difFilms} />) })
         }</div>
 

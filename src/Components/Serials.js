@@ -54,13 +54,17 @@ export default function Serials() {
     {
         name: "Дивні дива (2 сезон)", imgUrl: "https://oxvo.ru/wp-content/uploads/2016/07/stranger-things-season-2-spoiler-free-review-netflix.jpeg",
         url: "https://uakino.club/seriesss/detective_series/5798-divn-diva.html", mark: 9.3
+    },
+    {
+        name: "Буде боляче", imgUrl: "https://static.hdrezka.ac/i/2022/2/10/ebc87c2c4014cep58t54l.png",
+        url: "https://rezka.ag/series/drama/46626-budet-bolno-2022.html", mark: 7.6
     }]
 
     ];
 
 
     return (
-        <div className="serials">
+        <div className="serials wrapper">
             {serials.map(serial => <ShowFilms serial={serial} />)}
         </div>
 

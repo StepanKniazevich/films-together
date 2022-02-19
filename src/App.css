@@ -17,6 +17,7 @@
 .__anime{
   
   background: linear-gradient(rgb(89, 102, 93), rgb(19, 161, 142));
+  max-width: 280px;
 }
 .btn-primary{
   
@@ -30,10 +31,20 @@
   justify-content: center;
   flex-direction: column;
 }
-.mark-anime,.mark-cartons{
+.mark-cartons{
 
   color:#f1f8f7;
   padding-left: 130px;
+
+}
+.mark-anime{
+  color:#f1f8f7;
+  padding-left: 85px;
+}
+.mark-dorams{
+
+  color:#f1f8f7;
+  padding-left: 36%;
 
 }
 
@@ -41,6 +52,7 @@
 
 .__dorams{
   background: linear-gradient(rgb(89, 102, 93), rgb(141, 199, 7));
+  max-width: 280px;
 }
 
 .__different{
@@ -56,12 +68,12 @@
   max-width: 380px;
 }
 
-.different,.serials,.sweets,.anime,.Cartons{
+.different,.serials,.sweets,.anime,.Cartons,.dorams{
 
   padding: 100px;
 }
-img{
- /* object-fit:cover;
+.card-item img{
+ /*object-fit:cover;
   background-size: cover;
   background-repeat: no-repeat;*/
 }

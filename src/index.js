@@ -15,11 +15,9 @@ import { Routes, Route, Link, BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
 
-
-
-  <BrowserRouter>
+  <BrowserRouter >
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="*" element={<App />} />
       <Route path="/Anime" element={<Anime />} />
       <Route path="/Different" element={<Different />} />
       <Route path="/Dis" element={<Dis />} />
@@ -29,7 +27,7 @@ ReactDOM.render(
       <Route path="/Cartons" element={<Cartons />} />
 
     </Routes>
-  </BrowserRouter>
+  </BrowserRouter >
   ,
   document.getElementById('root')
 );
