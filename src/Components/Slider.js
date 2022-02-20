@@ -16,7 +16,7 @@ export default function Slider() {
                 <Carousel.Caption className="filmContent">
                     <h3>Аніме</h3>
                     <p>Твоє ім'я, погода з тобою, ходячий замок та багато інших"</p>
-                    <a href="Anime/" class="btn btn-outline-light" >Посилання</a>
+                    <a href="#/Anime" class="btn btn-outline-light" >Посилання</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={2000}>
@@ -28,7 +28,7 @@ export default function Slider() {
                 <Carousel.Caption className="filmContent">
                     <h3>Cеріали</h3>
                     <p>Дивні дива, картковий будинок, секс/життя.."</p>
-                    <a href="/Serials" class="btn btn-outline-light" >Посилання</a>
+                    <a href="#/Serials" class="btn btn-outline-light" >Посилання</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -40,7 +40,7 @@ export default function Slider() {
                 <Carousel.Caption className="filmContent">
                     <h3>Миленькі фільми</h3>
                     <p>Половина всього, Містер Черч, Валеріан і місто тисячі планет"</p>
-                    <a href="/Sweets" class="btn btn-outline-light" >Посилання</a>
+                    <a href="#/Sweets" class="btn btn-outline-light" >Посилання</a>
                 </Carousel.Caption>
             </Carousel.Item>
 
@@ -55,7 +55,7 @@ export default function Slider() {
                 <Carousel.Caption className="filmContent">
                     <h3>Дорами</h3>
                     <p>Гра в кальмара, Щастя, Один типовий день ..."</p>
-                    <a href="/Dorams" class="btn btn-outline-light" >Посилання</a>
+                    <a href="#/Dorams" class="btn btn-outline-light" >Посилання</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={2000}>
@@ -67,7 +67,7 @@ export default function Slider() {
                 <Carousel.Caption className="filmContent">
                     <h3>Мультфільми</h3>
                     <p>Співай, Планета скарбів..."</p>
-                    <a href="/Cartons" class="btn btn-outline-light" >Посилання</a>
+                    <a href="#/Cartons" class="btn btn-outline-light" >Посилання</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

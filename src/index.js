@@ -10,12 +10,12 @@ import Serials from "./components/Serials";
 import Dorams from "./components/Dorams";
 import Dis from "./components/Dis";
 import Cartons from "./components/Cartons";
-import { Routes, Route, Link, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, Link, HashRouter } from 'react-router-dom';
 
 
 ReactDOM.render(
 
-  <BrowserRouter >
+  <HashRouter >
     <Routes>
       <Route path="*" element={<App />} />
       <Route path="/Anime" element={<Anime />} />
@@ -27,7 +27,7 @@ ReactDOM.render(
       <Route path="/Cartons" element={<Cartons />} />
 
     </Routes>
-  </BrowserRouter >
+  </HashRouter >
   ,
   document.getElementById('root')
 );
